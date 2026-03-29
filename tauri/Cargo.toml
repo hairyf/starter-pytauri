@@ -28,6 +28,7 @@ serde_json = "1"
 
 pytauri = { version = "0.8", features = ["standalone"] }  
 pyo3 = { version = "0.25" }  
+tauri-plugin-pytauri = "0.8"
 
 # 独立打包时使用 `bundle-release`，避免把 pyembed 复制到 `target/release`，以免影响 `tauri dev`
 # 见 https://pytauri.github.io/pytauri/latest/usage/tutorial/build-standalone/
